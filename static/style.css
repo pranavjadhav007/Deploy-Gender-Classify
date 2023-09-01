@@ -1,0 +1,69 @@
+.hea {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+
+.top_div {
+    background-image: url("back.jpg");
+    padding: 20px;
+    width: auto;
+    height: 420px;
+    background-size: cover;
+    background-position: center;
+}
+
+body {
+    background-color: #010714;
+    color: white;
+}
+
+.fh {
+    font-size: 27px;
+}
+
+form p {
+    font-size: 27px;
+}
+
+form label {
+    font-size: 23px;
+}
+
+form {
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-color: #232e39;
+    margin: 0 30px;
+    padding: 20px 0px;
+    font-family: 'Merriweather', serif;
+    font-family: 'Preahvihear', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+form h1 {
+    font-size: 44px;
+}
+form div {
+    background-color: blue;
+    color:white;
+}
+
+form img {
+    width: 70px;
+    height: 70px;
+}
+
+.about_div {
+    background-color: #010714;
+    font-family: 'Kanit', sans-serif;
+    padding: 20px 10px;
+    text-align: justify;
+}
+
+footer {
+    text-align: center;
+}
