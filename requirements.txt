@@ -1,10 +1,10 @@
-Flask==2.0.2  
-gunicorn==20.1.0  
-numpy== 1.21.1
-pandas==1.3.5
-tensorflow==2.6.0
-keras>=2.7.0rc0
-scikit-learn==0.24.2
-urllib3<2.0
-google-auth>=2.22.0
-protobuf>=3.20,<4.0
+Flask 
+gunicorn  
+numpy
+pandas
+tensorflow
+keras
+scikit-learn
+urllib3
+google-auth
+protobuf
