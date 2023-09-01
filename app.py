@@ -3,6 +3,7 @@ from tensorflow import keras
 from tensorflow.keras import Sequential
 from tensorflow.keras.layers import Dense,Flatten
 from sklearn.model_selection import train_test_split
+from keras.layers import Dense,Dropout
 import pandas as pd
 import pickle
 
@@ -31,3 +32,6 @@ model.fit(X_train,Y_train,epochs=100,validation_data=(X_test,Y_test))
 model=tuner.get_best_models(num_models=1)[0]
 with open("model.pkl",'wb') as files:
   pickle.dump(model,files)
+
+
+#This exported basic model is integrated with tuner model(its in different file)
